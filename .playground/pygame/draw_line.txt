@@ -1,0 +1,4 @@
+
+pygame.draw.line(screen, red, start, end)
+
+note : values must be in tuple

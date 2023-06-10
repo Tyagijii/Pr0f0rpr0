@@ -1,0 +1,2 @@
+
+image = pygame.transform.scale(image, (width,height))

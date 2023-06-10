@@ -1,0 +1,9 @@
+
+#for size
+window.geometry("LXB")
+
+#for title
+window.title("Title")
+
+#for background
+window.config(background='color')

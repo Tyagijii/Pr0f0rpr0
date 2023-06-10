@@ -1,0 +1,10 @@
+
+var.pack()
+
+
+
+var.place(x=0,y=0)
+
+
+
+var.grid(row=0, column=0)

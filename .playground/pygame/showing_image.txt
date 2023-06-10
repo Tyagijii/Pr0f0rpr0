@@ -1,0 +1,6 @@
+
+img=pygame.image.load('image.format')
+
+pos=(x,y)
+
+screen.blit(img,pos)

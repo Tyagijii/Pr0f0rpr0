@@ -1,0 +1,19 @@
+
+e = Entry(window,
+          font,fg,bg = same as label
+          )
+          
+          
+e.get() - get text in e as string
+
+e.delete(0,END) - delete entire text of e
+
+e.delete(len(e.get())-1,END) - delete Last character of e
+
+e.insert(index,'text')
+
+e.config(show='*') - whatever you write it only show *
+
+e.config(state=DISABLED) - you can't write anymore
+use e.config()
+or e['state']=DISABLED

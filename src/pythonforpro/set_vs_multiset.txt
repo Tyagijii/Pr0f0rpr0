@@ -1,0 +1,10 @@
+
+
+advantage is that it is fast
+
+from collections import Counter
+>>> counterA = Counter(['a','b','b','c'])
+>>> counterA
+Counter({'b': 2, 'a': 1, 'c': 1})
+Counter is a dictionary where where elements are stored as dictionary keys and their counts are stored as
+dictionary values. And as all dictionaries, it is an unordered collection.

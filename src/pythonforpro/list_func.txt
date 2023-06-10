@@ -1,0 +1,43 @@
+
+1.append
+insert element given at last
+
+
+2.pop
+remove the element at index given or the last element when no index given
+
+3.insert
+insert(index, value) – inserts value just before the specified index
+
+4.remove
+remove the first occurance
+
+5.index
+index(value, [startIndex]) – gets the index of the first occurrence of the input value
+
+6.reverse
+reverse() – reverses the list in-place and returns None.
+
+7.count
+count(value) – counts the number of occurrences of some value in the list.
+
+8.sort
+sorts the list in numerical and lexicographical order and returns None.
+
+a.sort()
+
+a.sort(reverse=True)
+
+l.sort(key=lambda item: item.name)
+
+All
+You can use all() to determine if all the values in an iterable evaluate to True
+
+Any
+any() determines if one or more values in an iterable evaluate to True
+
+vals = [1, 2, 3, 4]
+any(val > 12 for val in vals)
+give false
+
+in is faster in sets so on larger list first convert it to set then carry on

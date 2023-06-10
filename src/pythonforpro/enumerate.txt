@@ -1,0 +1,12 @@
+
+If you want to loop though both the elements of a list and have an index for the elements as well, you can use
+Python's enumerate function:
+for index, item in enumerate(['one', 'two', 'three', 'four']):
+ print(index, '::', item)
+enumerate will generate tuples, which are unpacked into index (an integer) and item (the actual value from the list).
+The above loop will print
+(0, '::', 'one')
+(1, '::', 'two')
+(2, '::', 'three')
+(3, '::', 'four')
+

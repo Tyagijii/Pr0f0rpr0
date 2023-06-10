@@ -1,0 +1,17 @@
+
+#load image
+
+img = pygame.image.load('img.format')
+
+#resize it
+
+image = pygame.transform.scale(image, (width, height))
+
+#convert it to rect
+
+var = image.get_rect()
+
+#move it
+
+var = var.move((speedx,speedy))
+

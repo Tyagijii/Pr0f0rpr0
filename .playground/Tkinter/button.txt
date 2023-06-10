@@ -1,0 +1,11 @@
+
+button=Button(window,
+              text="text",
+              command=function, not function()
+              font,image,fg,bg=same as label
+              activeforeground='color',
+              activebackground='color',
+              state=ACTIVE or DISABLED, btn works or not
+              
+              
+              )

@@ -1,0 +1,10 @@
+
+
+#e.g. for a
+
+for e in pygame.event.keys():
+  if e.type==pygame.KEYDOWN:
+    if e.key==pygame.K_a:
+      pass
+    
+  

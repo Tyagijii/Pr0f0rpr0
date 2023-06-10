@@ -1,0 +1,7 @@
+
+a.intersection(b) a & b
+a.union(b) a|b
+a.difference(b) a - b
+a.symmetric_difference(b) a ^ b
+a.issubset(b) a <= b
+a.issuperset(b) a >= b

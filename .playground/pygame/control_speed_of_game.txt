@@ -1,0 +1,9 @@
+
+The speed of the movement 
+is controlled by the frame rate of the game. The frame rate is the rate at which the screen is 
+redrawn, expressed as the number of frames per second (fps). The pygame Clock class pro-
+vides a tick method that is given the number of frames per second required by the game
+
+clock = pygame.time.Clock()
+
+clock().tick(30)

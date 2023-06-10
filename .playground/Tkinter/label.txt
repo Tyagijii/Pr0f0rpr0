@@ -1,0 +1,17 @@
+
+label=Label(
+            window,
+            text='text to show',
+            font=('Arial',40,'bold or italic or underline')(style,size,..),
+            fg='color' #foreground,
+            bg='color' #background,
+            bd=0 #border width,
+            relief=RAISED OR SUNKEN #border style,
+            padx=0
+            pady=0
+            image=PhotoImage(file='path')
+            compound='bottom or top or left' #image acc. to text
+            
+)) 
+
+
